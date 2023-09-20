@@ -1,0 +1,18 @@
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: #d1c0c0;
+        color: #040b46;
+    }
+}
+
+nav a.active{
+    background-color: rgb(240, 212, 118);
+}
